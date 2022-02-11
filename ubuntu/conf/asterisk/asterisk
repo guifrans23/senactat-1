@@ -1,0 +1,30 @@
+# Autor: Robson Vaamonde
+# Site: www.procedimentosemti.com.br
+# Facebook: facebook.com/ProcedimentosEmTI
+# Facebook: facebook.com/BoraParaPratica
+# YouTube: youtube.com/BoraParaPratica
+# Linkedin: https://www.linkedin.com/in/robson-vaamonde-0b029028/
+# Instagram: https://www.instagram.com/procedimentoem/?hl=pt-br
+# Data de criação: 14/01/2022
+# Data de atualização: 14/01/2022
+# Versão: 0.01
+# Testado e homologado para a versão do Ubuntu Server 20.04.x LTS x64x
+# Testado e homologado para a versão do Asterisk v19.1.x
+
+# Usuário e Grupo do serviço do Asterisk
+AST_USER="asterisk"
+AST_GROUP="asterisk"
+
+# Habilitando o recurso de cores no terminal do Asterisk
+COLOR=yes
+
+# Localizaçãodo arquivo de configuração padrão do Asterisk
+ALTCONF=/etc/asterisk/asterisk.conf
+
+# Configurações padrão do Asterisk, só descomentar se for necessário
+#COREDUMP=yes
+#MAXLOAD=4
+#MAXCALLS=1000
+#VERBOSITY=3
+#INTERNALTIMING=yes
+#TEMPRECORDINGLOCATION=yes
