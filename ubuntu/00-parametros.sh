@@ -31,6 +31,10 @@ HORAINICIAL=$(date +%T)
 # opções do comando: lsb_release: -r (release), -s (short), 
 USUARIO=$(id -u)
 UBUNTU=$(lsb_release -rs)
+HORAINICIAL=$(date +%T)
+#
+# Variáveis para validar o ambiente, verificando se o usuário é "Root" e versão do "Ubuntu"
+# opções do comando id: -u (user)
 #
 # Variável do Caminho e Nome do arquivo de Log utilizado em todos os script
 # $0 (variável de ambiente do nome do comando/script executado)
@@ -50,23 +54,23 @@ export DEBIAN_FRONTEND="noninteractive"
 # Declarando as variáveis utilizadas nas configurações de Rede do Servidor Ubuntu 
 #
 # Variável do Usuário padrão utilizado no Servidor Ubuntu desse curso
-USUARIODEFAULT="vaamonde"
+USUARIODEFAULT="senac"
 #
 # Variável da Senha padrão utilizado no Servidor Ubuntu desse curso
-SENHADEFAULT="pti@2018"
+SENHADEFAULT="123@senac"
 #
 # Variável do Nome (Hostname) do Servidor Ubuntu desse curso
-NOMESERVER="ptispo01ws01"
+NOMESERVER="Webserver"
 #
 # Variável do Nome de Domínio do Servidor Ubuntu desse curso
 # OBSERVAÇÃO IMPORTANTE: essa variável será utilizada em outras variáveis desse curso
-DOMINIOSERVER="pti.intra"
+DOMINIOSERVER="guifrans.intra"
 #
 # Variável do Nome (Hostname) FQDN (Fully Qualified Domain Name) do Servidor Ubuntu desse curso
 FQDNSERVER="$NOMESERVER.$DOMINIOSERVER"
 #
 # Variável do Endereço IPv4 principal (padrão) do Servidor Ubuntu desse curso
-IPV4SERVER="172.16.1.20"
+IPV4SERVER="172.16.22.20"
 #
 # Variável do Nome da Interface Lógica do Servidor Ubuntu Server desse curso
 INTERFACE="enp0s3"
@@ -75,7 +79,7 @@ INTERFACE="enp0s3"
 # CUIDADO!!! o nome do arquivo de configuração da placa de rede pode mudar dependendo da 
 # versão do Ubuntu Server, verificar o conteúdo do diretório: /etc/netplan para saber o nome 
 # do arquivo de configuração do Netplan e mudar a variável NETPLAN com o nome correspondente.
-NETPLAN="/etc/netplan/00-installer-config.yaml"
+NETPLAN="/etc/netplan/00-installer-config.yaml"rede
 #
 #=============================================================================================
 #                        VARIÁVEIS UTILIZADAS NO SCRIPT: 01-openssh.sh                       #

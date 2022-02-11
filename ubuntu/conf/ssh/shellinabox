@@ -30,4 +30,4 @@ SHELLINABOX_DATADIR=/var/lib/shellinabox
 # --service=/:SSH: configuração do endereço IPv4 do servidor de OpenSSH Server
 # Mais opções de argumentos veja a documentação oficial do Shell-In-a-Box no Link:
 # https://manpages.debian.org/unstable/shellinabox/shellinaboxd.1.en.html
-SHELLINABOX_ARGS="--no-beep --service=/:SSH:172.16.1.20"
+SHELLINABOX_ARGS="--no-beep --service=/:SSH:172.16.22.20"
