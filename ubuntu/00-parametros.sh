@@ -444,7 +444,7 @@ PORTFTP="21"
 # Declarando as variáveis utilizadas nas configurações do Serviço do Apache Tomcat9 Server
 #
 # Variável das dependências do laço de loop do Apache Tomcat9 Server
-TOMCATDEP="bind9 bind9utils mysql-server mysql-common apache2 php vsftpd"
+TOMCATDEP="server mysql-common apache2 php vsftpd"
 #
 # Variável de instalação das dependências do Java do Apache Tomcat Server
 TOMCATDEPINSTALL="openjdk-11-jdk openjdk-11-jre default-jdk"
