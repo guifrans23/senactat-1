@@ -416,10 +416,10 @@ USERFTP="ftpuser"
 PASSWORDFTP="ftpuser"
 #
 # Variável da senha utilizada na geração das chaves privadas/públicas de criptografia do OpenSSL 
-PWDSSLFTP="vaamonde"
+#PWDSSLFTP="vaamonde"
 #
 # Variável das dependências do laço de loop do VSFTPd Server
-FTPDEP="bind9 bind9utils apache2 openssl"
+FTPDEP="apache2 openssl"
 #
 # Variável de instalação do serviço de rede VSFTPd Server
 FTPINSTALL="vsftpd"
